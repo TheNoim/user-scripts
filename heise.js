@@ -3,6 +3,9 @@
 // @description Try to remove the annoying heise pop up
 // @match       *://www.heise.de/*
 // @match       *://heise.de/*
+// @version     1.0.0
+// @updateURL   https://raw.githubusercontent.com/TheNoim/user-scripts/main/heise.js
+// @downloadURL https://raw.githubusercontent.com/TheNoim/user-scripts/main/heise.js
 // ==/UserScript==
 
 const observer = new MutationObserver((mutationsList, observer) => {
